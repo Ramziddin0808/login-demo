@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contener{
+    width: 100%;
+    margin: 0 auto;
+}
+body{
+    background-image: url(image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.login-box{
+    margin: 95px;
+    display: flex;
+    justify-content:start;
+}
+.login{
+    margin: 20px;
+    text-align: center;
+    opacity: 0.8;
+    background-color: whitesmoke;
+    width: 450px;
+    height: 450px;
+    border: 3px solid white;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.ota-ona{
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+}
+.stydent{
+    margin: 20px;
+}
+.stydent, ul{
+    border-radius: 5px;
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+    width: 300px 200px; 
+    background-color: rgb(130, 133, 133);
+}
+.matn-2:hover{
+    cursor: pointer;
+    width: 150px;
+    background-color: white;
+    transform: scale(1.1);
+    transition: 1.2s;
+}
+.matn-1:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    transform: scale(1.1);
+    transition: 1.2s;
+    width: 150px;
+}
+.id{
+    border-radius: 5px;
+    margin: 10px;
+    width: 400px;
+    height: 30px;
+}
+.id:hover{
+    cursor: pointer;
+    border: 3px solid rgb(255, 102, 0);
+}
+.parol{
+    width: 400px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 5px;
+}
+.parol:hover{
+    cursor: pointer;
+    border: 3px solid rgb(255, 68, 0);
+}
+.tugma{
+    margin: 20px;
+    background-color: rgb(249, 68, 2);
+    width: 300px;
+    height: 30px;
+}
+.men{
+    margin: 20px;
+    font-size: 20px;
+}
+span{
+    color: rgb(248, 67, 2);
+}
+header{
+    padding: 50px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    text-align: end;
+    height: 100px;
+    background-color: whitesmoke;
+}
+#it,option{
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(252, 52, 2);
+    height: 30px;
+    margin: 20px;
+    width: 200px;
+}
+.rasm{ 
+    align-items: center;
+    height: 100px;
+    width: 200px;
+}
